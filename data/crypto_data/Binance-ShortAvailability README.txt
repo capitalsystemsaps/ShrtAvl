@@ -1,7 +1,7 @@
 The data is recorded from the Binance REST API.
 
-date - The END time of the 5-minute bar when the data has been retrieved and recorded
-ready - The time when the info for all symbols has been retrieved for the current bar
+date - The UTC END time of the 5-minute bar when the data has been retrieved and recorded
+ready - The UTC time when the info for all symbols has been retrieved for the current bar
 symbol - The trade-able pair symbol (asset & quote asset, e.g. BTCUSDT)
 asset - the underlaying base asset (e.g. BTC)
 statusTrading - 1 if the Exchange info "status" for the symbol is: "TRADING", 0 otherwise
